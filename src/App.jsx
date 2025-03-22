@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Center, Container, Flex } from '@mantine/core';
-import Upload from './Components/upload'
+import Upload from './Components/Upload'
 import FlashCards from './Components/FlashCards'
 
 
