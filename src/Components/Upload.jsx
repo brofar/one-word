@@ -4,7 +4,7 @@ import { Dropzone, MIME_TYPES } from '@mantine/dropzone';
 import '@mantine/dropzone/styles.css';
 
 // Import all premade files dynamically
-const premadeFiles = import.meta.glob('/src/assets/premades/*.txt', { as: 'raw', import: 'default' });
+const premadeFiles = import.meta.glob('/src/assets/premades/*.txt', { query: '?raw', import: 'default' });
 
 
 export default function Upload({ onFileUpload }) {
